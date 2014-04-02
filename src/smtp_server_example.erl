@@ -2,7 +2,7 @@
 %% documentation for the required callback API.
 
 -module(smtp_server_example).
--behaviour(gen_smtp_server_session).
+%-behaviour(gen_smtp_server_session).
 
 
 -export([init/4, handle_HELO/2, handle_EHLO/3, handle_MAIL/2, handle_MAIL_extension/2,
